@@ -65,6 +65,25 @@ body {
 	align-self: center;
 	height: 30%;
 	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+#about-me-section {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.chapter-number {
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+}
+
+.chapter-title {
+	font-size: 2.75rem;
+	margin: 0;
+	margin-bottom: 50px;
 }
 
 @media screen and (max-width: 630px) {
@@ -99,5 +118,14 @@ body {
 	#fleuron {
 		height: 100%;
 		width: 80%;
+		margin-bottom: 50px;
+	}
+
+	.chapter-number {
+		font-size: 1rem;
+	}
+
+	.chapter-title {
+		font-size: 2rem;
 	}
 }
