@@ -4,7 +4,8 @@
 	"description": "Marcelle J.J. Padilla's professional portfolio website as of 2026.",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky install"
 	},
 	"repository": {
 		"type": "git",
@@ -22,6 +23,8 @@
 		"@11ty/eleventy": "^3.1.2"
 	},
 	"devDependencies": {
+		"husky": "^9.1.7",
+		"lint-staged": "^16.2.7",
 		"prettier": "3.8.1"
 	},
 	"prettier": {
@@ -33,5 +36,8 @@
 		"arrowParens": "always",
 		"bracketSameLine": false,
 		"singleAttributePerLine": true
+	},
+	"lint-staged": {
+		"*.{js,css,html}": "prettier --write"
 	}
 }
