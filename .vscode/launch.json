@@ -7,10 +7,7 @@
 			"name": "Build with Eleventy and run server",
 			"console": "integratedTerminal",
 			"runtimeExecutable": "npx",
-			"runtimeArgs": [
-				"@11ty/eleventy",
-				"--serve"
-			]
+			"runtimeArgs": ["@11ty/eleventy", "--serve"]
 		}
 	]
 }

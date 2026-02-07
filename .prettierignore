@@ -1,0 +1,5 @@
+package.json
+package-lock.json
+_site
+node_modules
+**/*.md

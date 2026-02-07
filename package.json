@@ -1,24 +1,37 @@
 {
-  "name": "portfolio_website_2",
-  "version": "1.0.0",
-  "description": "Marcelle J.J. Padilla's professional portfolio website as of 2026.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MarquisLP/portfolio_website_2.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/MarquisLP/portfolio_website_2/issues"
-  },
-  "homepage": "https://github.com/MarquisLP/portfolio_website_2#readme",
-  "dependencies": {
-    "@11ty/eleventy": "^3.1.2"
-  }
+	"name": "portfolio_website_2",
+	"version": "1.0.0",
+	"description": "Marcelle J.J. Padilla's professional portfolio website as of 2026.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarquisLP/portfolio_website_2.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/MarquisLP/portfolio_website_2/issues"
+	},
+	"homepage": "https://github.com/MarquisLP/portfolio_website_2#readme",
+	"dependencies": {
+		"@11ty/eleventy": "^3.1.2"
+	},
+	"devDependencies": {
+		"prettier": "3.8.1"
+	},
+	"prettier": {
+		"semi": true,
+		"singleQuote": true,
+		"useTabs": true,
+		"trailingComma": "all",
+		"bracketSpacing": true,
+		"arrowParens": "always",
+		"bracketSameLine": false,
+		"singleAttributePerLine": true
+	}
 }
