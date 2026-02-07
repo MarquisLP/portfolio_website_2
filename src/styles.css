@@ -65,7 +65,7 @@ body {
 	align-self: center;
 	height: 30%;
 	margin-top: 50px;
-	margin-bottom: 70px;
+	margin-bottom: 90px;
 }
 
 #about-me-section {
@@ -83,7 +83,21 @@ body {
 .chapter-title {
 	font-size: 2.75rem;
 	margin: 0;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
+}
+
+#about-me-section > p {
+	font-size: 1.2rem;
+	max-width: 1000px;
+	text-indent: 3rem;
+}
+
+#about-me-section > ul {
+	align-self: flex-start;
+}
+
+#about-me-section > li {
+	font-size: 1.2rem;
 }
 
 @media screen and (max-width: 630px) {

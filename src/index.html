@@ -1,3 +1,9 @@
+---
+title: Home
+myData:
+  myKey: myValue
+---
+
 <!doctype html>
 <html lang="en-US">
 	<head>
@@ -43,6 +49,7 @@
 				<div id="about-me-section">
 					<span class="chapter-number">Chapter 1</span>
 					<h2 class="chapter-title">About Me</h2>
+					{% renderFile "./_includes/aboutMe.md" %}
 				</div>
 			</div>
 		</div>
