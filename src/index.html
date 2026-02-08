@@ -21,48 +21,72 @@ myData:
 
 	<body>
 		<div id="page-container">
-			<div id="page-content-container">
-				<div id="intro">
-					<span id="intro-1">In a cozy microcosm of the modern world,</span>
-					<span id="intro-2"
-						>there lives a fascinating
-						<span class="bold">Full-Stack Developer</span></span
-					>
-					<span id="intro-3"
-						>who weaves words not just to craft clever code</span
-					>
-					<span id="intro-4"
-						>but to cast the wonderful wizardry of a
-						<span class="bold">Writer</span>.</span
-					>
-				</div>
-				<div id="full-name-container">
-					<span id="full-name-preline">And her name is</span>
-					<h1 id="full-name-title">Marcelle J.J. Padilla</h1>
-				</div>
+			<div id="paper">
+				<div id="paper-content">
+					<div id="intro">
+						<span id="intro-1">In a cozy microcosm of the modern world,</span>
+						<span id="intro-2"
+							>there lives a fascinating
+							<span class="bold">Full-Stack Developer</span></span
+						>
+						<span id="intro-3"
+							>who weaves words not just to craft clever code</span
+						>
+						<span id="intro-4"
+							>but to cast the wonderful wizardry of a
+							<span class="bold">Writer</span>.</span
+						>
+					</div>
+					<div id="full-name-container">
+						<span id="full-name-preline">And her name is</span>
+						<h1 id="full-name-title">Marcelle J.J. Padilla</h1>
+					</div>
 
-				<img
-					id="fleuron"
-					src="assets/fleuron.png"
-				/>
+					<img
+						id="fleuron"
+						src="assets/fleuron.png"
+					/>
 
-				<div id="about-me-section">
-					<span class="chapter-number">Chapter 1</span>
-					<h2 class="chapter-title">About Me</h2>
-					{% renderFile "./_includes/aboutMe.md" %}
+					<div id="about-me-section">
+						<span class="chapter-number">Chapter 1</span>
+						<h2 class="chapter-title">About Me</h2>
+						{% renderFile "./_includes/aboutMe.md" %}
+					</div>
+
+					<div id="resume-section">
+						<span class="chapter-number">Chapter 2</span>
+						<h2 class="chapter-title">Resume</h2>
+						<a
+							id="download-resume-button"
+							href="https://mjjpadilla-portfolio-website-2-files.s3.ca-central-1.amazonaws.com/Resume+-+Marcelle+Padilla.pdf"
+							target="_blank"
+							rel="noreferrer"
+							>Click here to get the latest copy of my resume
+						</a>
+						{% renderFile "./_includes/skills.md" %}
+					</div>
+
+					<div id="software-section">
+						<span class="chapter-number">Chapter 3</span>
+						<h2 class="chapter-title">Software</h2>
+						<p>
+							Here are your tickets to some productive and pleasing products of
+							programming. Take as many as you want!
+						</p>
+					</div>
 				</div>
-
-				<div id="resume-section">
-					<span class="chapter-number">Chapter 2</span>
-					<h2 class="chapter-title">Resume</h2>
-					<a
-						id="download-resume-button"
-						href="https://mjjpadilla-portfolio-website-2-files.s3.ca-central-1.amazonaws.com/Resume+-+Marcelle+Padilla.pdf"
-						target="_blank"
-						rel="noreferrer"
-						>Click here to get the latest copy of my resume
-					</a>
-					{% renderFile "./_includes/skills.md" %}
+			</div>
+			<div id="software-tickets">
+				<div class="software-ticket">
+					<img src="assets/world-scribe-2-logo.png" />
+					<h2>World Scribe 2</h2>
+					<p>
+						A desktop app for worldbuilding. Plan out your characters,
+						locations, concepts, and more, along with the connections between
+						them.
+					</p>
+					<a href="">Website</a>
+					<a href="">Source Code</a>
 				</div>
 			</div>
 		</div>
