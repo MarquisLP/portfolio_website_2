@@ -140,7 +140,7 @@ body {
 	margin-left: 0.5rem;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 670px) {
 	#page-content-container {
 		padding-top: 150px;
 	}
