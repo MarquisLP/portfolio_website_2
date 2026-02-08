@@ -122,6 +122,24 @@ body {
 	text-decoration: none;
 }
 
+#download-resume-button:hover {
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-name: button-fill;
+}
+
+@keyframes button-fill {
+	0% {
+		background-color: transparent;
+		color: black;
+	}
+
+	100% {
+		background-color: black;
+		color: white;
+	}
+}
+
 #resume-section > p {
 	align-self: flex-start;
 	font-size: 1.2rem;
