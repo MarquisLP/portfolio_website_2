@@ -32,6 +32,10 @@ body {
 	font-size: 1.5rem;
 }
 
+#intro > span {
+	margin-bottom: 5px;
+}
+
 #intro-2 {
 	margin-left: 3rem;
 }
@@ -64,7 +68,7 @@ body {
 #fleuron {
 	align-self: center;
 	height: 30%;
-	margin-top: 50px;
+	margin-top: 75px;
 	margin-bottom: 90px;
 }
 
@@ -88,8 +92,9 @@ body {
 
 #about-me-section > p {
 	font-size: 1.2rem;
+	line-height: 1.5rem;
 	max-width: 1000px;
-	text-indent: 3rem;
+	text-indent: 2.5rem;
 }
 
 #about-me-section > ul {
