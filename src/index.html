@@ -50,7 +50,7 @@ myData:
 					<div id="about-me-section">
 						<span class="chapter-number">Chapter 1</span>
 						<h2 class="chapter-title">About Me</h2>
-						{% renderFile "./_includes/aboutMe.md" %}
+						{% renderFile "./src/_includes/aboutMe.md" %}
 					</div>
 
 					<div id="resume-section">
@@ -63,7 +63,7 @@ myData:
 							rel="noreferrer"
 							>Click here to get the latest copy of my resume
 						</a>
-						{% renderFile "./_includes/skills.md" %}
+						{% renderFile "./src/_includes/skills.md" %}
 					</div>
 
 					<div id="software-section">
@@ -77,17 +77,15 @@ myData:
 				</div>
 			</div>
 			<div id="software-tickets">
+				{%- for softwareProject in collections.softwareProject -%}
 				<div class="software-ticket">
-					<img src="assets/world-scribe-2-logo.png" />
-					<h2>World Scribe 2</h2>
-					<p>
-						A desktop app for worldbuilding. Plan out your characters,
-						locations, concepts, and more, along with the connections between
-						them.
-					</p>
-					<a href="">Website</a>
-					<a href="">Source Code</a>
+					<img src="assets/{{softwareProject.data.image}}" />
+					<h2>{{ softwareProject.data.name }}</h2>
+					<p>{{ softwareProject.data.description }}</p>
+					<a href="{{ softwareProject.data.website}} ">Website</a>
+					<a href="{{ softwareProject.data.source_code }}">Source Code</a>
 				</div>
+				{%- endfor -%}
 			</div>
 		</div>
 	</body>
