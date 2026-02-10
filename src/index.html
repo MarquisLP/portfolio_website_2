@@ -85,8 +85,18 @@ myData:
 						{% renderTemplate "liquid,md", softwareProject %} {{
 						data.description }} {% endrenderTemplate %}
 					</p>
-					<a href="{{ softwareProject.data.website}} ">Website</a>
-					<a href="{{ softwareProject.data.sourceCode }}">Source Code</a>
+					<a
+						href="{{ softwareProject.data.website}} "
+						target="_blank"
+						rel="noreferrer"
+						>Website
+					</a>
+					<a
+						href="{{ softwareProject.data.sourceCode}} "
+						target="_blank"
+						rel="noreferrer"
+						>Source Code
+					</a>
 				</div>
 				{%- endfor -%}
 			</div>
