@@ -271,4 +271,15 @@ body {
 	#resume-section > ul {
 		margin-left: 0;
 	}
+
+	#software-tickets {
+		align-items: center;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	.software-ticket {
+		width: 90%;
+		margin-bottom: 0;
+	}
 }
