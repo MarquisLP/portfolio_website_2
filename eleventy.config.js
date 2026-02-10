@@ -53,6 +53,10 @@ export default function (eleventyConfig) {
 		return trimmedContent.slice(0, sliceEnd).trim() + '…';
 	});
 
+	eleventyConfig.addShortcode('currentYear', () => {
+		return new Date().getFullYear();
+	});
+
 	return {
 		templateFormats: ['html', 'css', 'js', 'md', 'png'],
 		htmlTemplateEngine: 'liquid',
