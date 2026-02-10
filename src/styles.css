@@ -300,6 +300,42 @@ body {
 	text-decoration: none;
 }
 
+#other-stories {
+	align-items: center;
+	display: flex;
+	margin-left: 50px;
+}
+
+.other-story-book {
+	box-shadow: 0px 15px 15px -15px rgba(0, 0, 0, 0.3);
+	height: 430px;
+	width: 90px;
+}
+
+#view-all-stories {
+	background-color: #330099;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 20px;
+	padding-right: 21px;
+	text-align: center;
+	writing-mode: vertical-rl;
+}
+
+#view-all-stories > a {
+	color: white;
+	text-decoration: none;
+}
+
+#other-story-2 {
+	background-color: #990000;
+}
+
+#other-story-3 {
+	background-color: #003300;
+}
+
 @media screen and (max-width: 670px) {
 	#page-content-container {
 		padding-top: 150px;
