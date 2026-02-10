@@ -218,6 +218,7 @@ body {
 .software-ticket > p {
 	font-size: 1.2rem;
 	line-height: 1.5rem;
+	margin-bottom: 40px;
 }
 
 .software-ticket > a {

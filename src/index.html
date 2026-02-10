@@ -81,10 +81,8 @@ myData:
 				<div class="software-ticket">
 					<img src="assets/{{softwareProject.data.image}}" />
 					<h2>{{ softwareProject.data.name }}</h2>
-					<p>
-						{% renderTemplate "liquid,md", softwareProject %} {{
-						data.description }} {% endrenderTemplate %}
-					</p>
+					{% renderTemplate "liquid,md", softwareProject %} {{ data.description
+					}} {% endrenderTemplate %}
 					<a
 						href="{{ softwareProject.data.website}} "
 						target="_blank"
