@@ -98,6 +98,25 @@ myData:
 				</div>
 				{%- endfor -%}
 			</div>
+
+			<div id="library-section">
+				<h2 class="chapter-title">Library</h2>
+				<div id="books">
+					{%- for latestStory in collections.latestStory -%}
+					<div id="latest-story-book">
+						<div id="latest-story-title-page">
+							<img src="assets/{{ latestStory.data.image }}" />
+							<h2>{{ latestStory.data.title }}</h2>
+						</div>
+						<div id="latest-story-excerpt-page">
+							{% renderTemplate "liquid,md", latestStory %} {% excerpt %} {{
+							content }} {% endexcerpt %} {% endrenderTemplate %}
+							<p id="continue-reading-link"><a href="">Continue reading</a></p>
+						</div>
+					</div>
+					{%- endfor -%}
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

@@ -226,6 +226,80 @@ body {
 	text-decoration: none;
 }
 
+#library-section {
+	align-items: center;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+#books {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#library-section > .chapter-title {
+	color: #75481b;
+}
+
+#latest-story-book {
+	box-shadow: 0px 15px 15px -15px rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: flex-start;
+}
+
+#latest-story-title-page {
+	align-items: center;
+	background: linear-gradient(to right, white 0%, white 95%, #bbbbbb 100%);
+	border: 1px solid black;
+	border-right: 1px solid #aaaaaa;
+	display: flex;
+	flex-direction: column;
+	height: 430px;
+	padding: 40px 30px;
+	width: 360px;
+}
+
+#latest-story-title-page > img {
+	height: 250px;
+	margin-bottom: 25px;
+	width: 250px;
+}
+
+#latest-story-title-page > h2 {
+	font-size: 2rem;
+	margin: 0;
+	text-align: center;
+}
+
+#latest-story-excerpt-page {
+	align-items: center;
+	background: linear-gradient(to left, white 0%, white 95%, #bbbbbb 100%);
+	border: 1px solid black;
+	border-left: none;
+	display: flex;
+	flex-direction: column;
+	height: 430px;
+	padding: 25px 30px;
+	width: 360px;
+}
+
+#latest-story-excerpt-page > p {
+	line-height: 1.4rem;
+	margin: 5px 0;
+	text-indent: 2rem;
+}
+
+#continue-reading-link {
+	align-self: flex-end;
+	text-indent: 0;
+}
+
+#continue-reading-link > a {
+	text-decoration: none;
+}
+
 @media screen and (max-width: 670px) {
 	#page-content-container {
 		padding-top: 150px;

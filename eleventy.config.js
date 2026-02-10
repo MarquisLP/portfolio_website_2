@@ -19,6 +19,40 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addWatchTarget('./_includes');
 
+	eleventyConfig.addCollection('latestStory', (collectionsApi) => {
+		return collectionsApi.getFilteredByTag('story').slice(0, 1);
+	});
+
+	eleventyConfig.addPairedShortcode('excerpt', function (content) {
+		let sliceEnd;
+		const maxWordCount = 80;
+		const maxParagraphCount = 3;
+
+		let charIndex = 0;
+		let wordCount = 0;
+		let paragraphCount = 0;
+		const trimmedContent = content.trim();
+		while (
+			wordCount < maxWordCount &&
+			paragraphCount < maxParagraphCount &&
+			charIndex < trimmedContent.length
+		) {
+			if (
+				trimmedContent[charIndex] === ' ' ||
+				trimmedContent[charIndex] === '\n'
+			) {
+				wordCount++;
+			}
+			if (trimmedContent[charIndex] === '\n') {
+				paragraphCount++;
+			}
+			charIndex++;
+		}
+		sliceEnd = charIndex - 1;
+
+		return trimmedContent.slice(0, sliceEnd).trim() + '…';
+	});
+
 	return {
 		templateFormats: ['html', 'css', 'js', 'md', 'png'],
 		htmlTemplateEngine: 'liquid',
