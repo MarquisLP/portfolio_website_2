@@ -81,7 +81,10 @@ myData:
 				<div class="software-ticket">
 					<img src="assets/{{softwareProject.data.image}}" />
 					<h2>{{ softwareProject.data.name }}</h2>
-					<p>{{ softwareProject.data.description }}</p>
+					<p>
+						{% renderTemplate "liquid,md", softwareProject %} {{
+						data.description }} {% endrenderTemplate %}
+					</p>
 					<a href="{{ softwareProject.data.website}} ">Website</a>
 					<a href="{{ softwareProject.data.sourceCode }}">Source Code</a>
 				</div>
