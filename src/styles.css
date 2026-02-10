@@ -187,7 +187,8 @@ body {
 
 #software-tickets {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	width: 100%;
 }
 
 .software-ticket {
