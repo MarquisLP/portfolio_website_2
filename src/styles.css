@@ -362,18 +362,15 @@ body {
 
 #view-all-stories {
 	background-color: #330099;
+	display: block;
 	color: white;
 	font-size: 2rem;
 	font-weight: bold;
 	padding: 20px;
 	padding-right: 21px;
 	text-align: center;
-	writing-mode: vertical-rl;
-}
-
-#view-all-stories > a {
-	color: white;
 	text-decoration: none;
+	writing-mode: vertical-rl;
 }
 
 #other-story-2 {
