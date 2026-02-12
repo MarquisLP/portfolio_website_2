@@ -3,12 +3,11 @@ pagination:
   data: collections.story
   size: 999
   alias: stories
-permalink: "/library/"
+permalink: '/library/'
 ---
 
 <!doctype html>
 <html lang="en-US">
-
 	<head>
 		<meta charset="utf-8" />
 		<meta
@@ -43,23 +42,32 @@ permalink: "/library/"
 
 		<div id="page-wrapper">
 			<div id="books-container">
-			{% for story in stories reversed %}
-				<a class="book book-color-{{ collections.story | getCollectionItemIndex: story | modFour }}" href="/library/{{ story.data.title | slugify }}/">
+				{% for story in stories reversed %}
+				<a
+					class="book book-color-{{ collections.story | getCollectionItemIndex: story | modFour }}"
+					href="/library/{{ story.data.title | slugify }}/"
+				>
 					<div class="book-cover">
 						<div class="story-image-container">
-							<img class="story-image" src="/assets/{{ story.data.image }}" />
+							<img
+								class="story-image"
+								src="/assets/{{ story.data.image }}"
+							/>
 						</div>
 						<h1 class="story-title">{{ story.data.title }}</h1>
 						<div class="story-metadata">
-							<span class="story-word-count">{{ story.content | wordCount }} words</span>
-							<span class="story-genres">{{ story.data.genres | capitalizeEachWord }}</span>
+							<span class="story-word-count"
+								>{{ story.content | wordCount }} words</span
+							>
+							<span class="story-genres"
+								>{{ story.data.genres | capitalizeEachWord }}</span
+							>
 						</div>
 					</div>
 					<div class="book-text-block"></div>
 				</a>
-			{% endfor %}
+				{% endfor %}
 			</div>
 		</div>
 	</body>
-
 </html>

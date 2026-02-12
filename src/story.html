@@ -3,12 +3,11 @@ pagination:
   data: collections.story
   size: 1
   alias: story
-permalink: "/library/{{ story.data.title | slugify }}/"
+permalink: '/library/{{ story.data.title | slugify }}/'
 ---
 
 <!doctype html>
 <html lang="en-US">
-
 	<head>
 		<meta charset="utf-8" />
 		<meta
@@ -51,17 +50,21 @@ permalink: "/library/{{ story.data.title | slugify }}/"
 		<div id="page-wrapper">
 			<div id="page-content">
 				<div id="story-header">
-					<img id="story-image" src="/assets/{{ story.data.image }}" />
+					<img
+						id="story-image"
+						src="/assets/{{ story.data.image }}"
+					/>
 					<h1 id="story-title">{{ story.data.title }}</h1>
 					<p>by Marcelle J.J. Padilla</p>
 					<p>written {{ story.data.date | formatDateLocale }}</p>
 				</div>
-				<div id="story-content">
-					{{ story.content }}
-				</div>
-				<a id="back-to-top" href="#story-image">Back to Top</a>
+				<div id="story-content">{{ story.content }}</div>
+				<a
+					id="back-to-top"
+					href="#story-image"
+					>Back to Top</a
+				>
 			</div>
 		</div>
 	</body>
-	
 </html>
