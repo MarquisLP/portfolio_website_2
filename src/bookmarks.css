@@ -1,0 +1,105 @@
+#bookmarks {
+	display: flex;
+	gap: 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.bookmark {
+	align-items: center;
+	box-shadow: 0px 25px 25px -30px rgba(0, 0, 0, 0.5);
+	color: white;
+	display: flex;
+	font-size: 1.2rem;
+	font-weight: bold;
+	height: 250px;
+	margin-top: -100px;
+	width: 100px;
+	padding: 125px 15px 0 15px;
+	text-align: center;
+	text-decoration: none;
+	writing-mode: vertical-rl;
+}
+
+.bookmark:hover {
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
+	animation-name: bookmark-slide-down;
+}
+
+@keyframes bookmark-slide-down {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(100px);
+	}
+}
+
+#bookmark-1 {
+	background: linear-gradient(
+		to bottom,
+		#006aff 0%,
+		#006aff 82%,
+		rgb(230, 236, 255) 90%,
+		#4287e7 95%,
+		#4287e7 100%
+	);
+}
+
+#bookmark-2 {
+	background: linear-gradient(
+		to bottom,
+		#993399 0%,
+		#993399 82%,
+		rgb(241, 218, 250) 90%,
+		#ad56ad 95%,
+		#ad56ad 100%
+	);
+}
+
+#bookmark-3 {
+	background: linear-gradient(
+		to bottom,
+		#33cc00 0%,
+		#33cc00 82%,
+		rgb(215, 255, 221) 90%,
+		#51e620 95%,
+		#51e620 100%
+	);
+}
+
+#bookmark-4 {
+	background-color: #ffc400;
+	background: linear-gradient(
+		to bottom,
+		#ffc400 0%,
+		#ffc400 82%,
+		rgb(253, 249, 202) 90%,
+		#f3e031 95%,
+		#f3e031 100%
+	);
+	color: black;
+}
+
+@media screen and ((max-width: 670px) or (max-height: 670px)) {
+	.bookmark {
+		font-size: 1rem;
+		height: 150px;
+		margin-top: -50px;
+		padding-top: 60px;
+	}
+
+	@keyframes bookmark-slide-down {
+		0% {
+			transform: translateY(0);
+		}
+
+		100% {
+			transform: translateY(50px);
+		}
+	}
+}
