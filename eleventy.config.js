@@ -78,6 +78,15 @@ export default function (eleventyConfig) {
 		return words.length;
 	});
 
+	eleventyConfig.addFilter('capitalizeEachWord', (text) => {
+		if (!text) return '';
+		return text
+			.toLowerCase()
+			.split(' ')
+			.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+			.join(' ');
+	});
+
 	return {
 		templateFormats: ['html', 'css', 'js', 'md', 'liquid', 'png'],
 		htmlTemplateEngine: 'liquid',

@@ -44,7 +44,7 @@ permalink: "/library/"
 						<h1 class="story-title">{{ story.data.title }}</h1>
 						<div class="story-metadata">
 							<span class="story-word-count">{{ story.content | wordCount }} words</span>
-							<span class="story-genres">{{ story.data.genres }}</span>
+							<span class="story-genres">{{ story.data.genres | capitalizeEachWord }}</span>
 						</div>
 					</div>
 					<div class="book-text-block"></div>
