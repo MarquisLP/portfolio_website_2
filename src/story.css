@@ -55,7 +55,7 @@ body {
 	height: 100%;
 	margin-top: 150px;
 	max-width: 1000px;
-	padding-bottom: 50px;
+	padding: 0 20px 50px 15px;
 	width: 100%;
 }
 
