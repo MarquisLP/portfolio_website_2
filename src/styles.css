@@ -382,8 +382,9 @@ body {
 }
 
 @media screen and (max-width: 670px) {
-	#page-content-container {
-		padding-top: 150px;
+	#paper-content {
+		padding-top: 250px;
+		padding-bottom: 20px;
 	}
 
 	#intro {
@@ -413,6 +414,7 @@ body {
 	#fleuron {
 		height: 100%;
 		width: 80%;
+		margin-top: 45px;
 		margin-bottom: 50px;
 	}
 
@@ -424,8 +426,16 @@ body {
 		font-size: 2rem;
 	}
 
+	#resume-section {
+		margin-top: 50px;
+	}
+
 	#resume-section > ul {
 		margin-left: 0;
+	}
+
+	#software-section {
+		margin-top: 50px;
 	}
 
 	#software-tickets {
@@ -437,6 +447,10 @@ body {
 	.software-ticket {
 		width: 90%;
 		margin-bottom: 0;
+	}
+
+	#library-section {
+		margin-top: 50px;
 	}
 
 	#books {
