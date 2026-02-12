@@ -52,8 +52,10 @@ body {
 	column-gap: 100px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	margin-top: 150px;
 	max-width: 1000px;
+	padding-bottom: 50px;
 	width: 100%;
 }
 
@@ -116,4 +118,11 @@ body {
 	background-color: white;
 	height: 30px;
 	width: 100%;
+}
+
+@media screen and (max-width: 670px) {
+	#books-container {
+		margin-top: 100px;
+		row-gap: 50px;
+	}
 }
