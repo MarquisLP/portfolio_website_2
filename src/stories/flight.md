@@ -29,9 +29,9 @@ Zip
 
 With a shaky hand, Tom pulled a document out of his knapsack and held it up to the glass. The top of it read:
 
-Culinary Institute LeNotre
+<p style="text-align: center;"><em>Culinary Institute LeNotre</em></p>
 
-Student Application Form
+<p style="text-align: center;"><em>Student Application Form</em></p>
 
 After reading it, she looked back at Tom with narrowed eyes. “Don’t tell me…”
 
