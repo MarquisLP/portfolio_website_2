@@ -381,6 +381,17 @@ body {
 	background-color: #003300;
 }
 
+@media screen and (max-width: 1050px) {
+	#books {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	#latest-story-book {
+		margin-bottom: 50px;
+	}
+}
+
 @media screen and (max-width: 670px) {
 	#paper-content {
 		padding-top: 250px;
