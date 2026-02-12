@@ -25,7 +25,7 @@ He looked up to see her staring at him, waiting. Eventually, she sighed. “Forg
 
 Her eyes and mouth drooped, forming three flat lines. Tom had seen that face before — it was the one she’d always make, in the kitchen, after Tom said that he was skipping waiter duty to go to the library.
 
-Zip
+\*Zip\*
 
 With a shaky hand, Tom pulled a document out of his knapsack and held it up to the glass. The top of it read:
 
