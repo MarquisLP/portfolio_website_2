@@ -56,7 +56,8 @@ body {
 
 #page-container {
 	align-items: center;
-	background-color: #ff9c38;
+	background-image: url('/assets/desk.jpg');
+	background-size: 100%;
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 15px;
@@ -288,7 +289,7 @@ body {
 }
 
 #library-section > .chapter-title {
-	color: #75481b;
+	color: yellow;
 }
 
 #latest-story-book {
