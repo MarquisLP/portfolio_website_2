@@ -1,0 +1,57 @@
+---
+pagination:
+  data: collections.story
+  size: 999
+  alias: stories
+permalink: "/library/"
+---
+
+<!doctype html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width"
+		/>
+		<link
+			href="/library.css"
+			rel="stylesheet"
+		/>
+		<title>Library - Stories by Marcelle J.J. Padilla</title>
+	</head>
+
+	<body>
+		<div id="bookmarks">
+			<a
+				id="bookmark-home-page"
+				class="bookmark"
+				href="/"
+			>
+				Back to Home Page
+			</a>
+		</div>
+
+		<div id="page-wrapper">
+			<div id="books-container">
+			{% for story in stories %}
+				<a class="book" href="/library/{{ story.data.title | slugify }}/">
+					<div class="book-cover">
+						<div class="story-image-container">
+							<img class="story-image" src="/assets/{{ story.data.image }}" />
+						</div>
+						<h1 class="story-title">{{ story.data.title }}</h1>
+						<div class="story-metadata">
+							<span class="story-word-count">{{ story.data.wordCount }} words</span>
+							<span class="story-genres">{{ story.data.genres }}</span>
+						</div>
+					</div>
+					<div class="book-text-block"></div>
+				</a>
+			{% endfor %}
+			</div>
+		</div>
+	</body>
+
+</html>
