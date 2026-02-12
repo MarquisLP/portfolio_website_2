@@ -162,7 +162,11 @@ myData:
 						<div id="latest-story-excerpt-page">
 							{% renderTemplate "liquid,md", latestStory %} {% excerpt %} {{
 							content }} {% endexcerpt %} {% endrenderTemplate %}
-							<p id="continue-reading-link"><a href="">Continue reading</a></p>
+							<p id="continue-reading-link">
+								<a href="/library/{{ latestStory.data.title | slugify }}"
+									>Continue reading</a
+								>
+							</p>
 						</div>
 					</div>
 					{%- endfor -%}

@@ -1,4 +1,5 @@
 import { RenderPlugin } from '@11ty/eleventy';
+import { DateTime } from 'luxon';
 
 export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('assets');
@@ -57,8 +58,22 @@ export default function (eleventyConfig) {
 		return new Date().getFullYear();
 	});
 
+	eleventyConfig.addFilter(
+		'formatDateLocale',
+		(dateObj, locale = 'en-US', options = {}) => {
+			if (!dateObj) return '';
+			const dt = DateTime.fromJSDate(dateObj);
+			return dt.setLocale(locale).toLocaleString({
+				year: 'numeric',
+				month: 'long',
+				day: 'numeric',
+				timeZone: 'America/New_York',
+			});
+		},
+	);
+
 	return {
-		templateFormats: ['html', 'css', 'js', 'md', 'png'],
+		templateFormats: ['html', 'css', 'js', 'md', 'liquid', 'png'],
 		htmlTemplateEngine: 'liquid',
 		markdownTemplateEngine: 'liquid',
 		dataTemplateEngine: 'liquid',

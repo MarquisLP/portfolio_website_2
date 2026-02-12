@@ -1,0 +1,58 @@
+---
+pagination:
+  data: collections.story
+  size: 1
+  alias: story
+permalink: "/library/{{ story.data.title | slugify }}/"
+---
+
+<!doctype html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width"
+		/>
+		<link
+			href="/story.css"
+			rel="stylesheet"
+		/>
+		<title>{{ story.data.title }} - a story by Marcelle J.J. Padilla</title>
+	</head>
+
+	<body>
+		<div id="bookmarks">
+			<a
+				id="bookmark-home-page"
+				class="bookmark"
+				href="/"
+			>
+				Back to Home Page
+			</a>
+			<a
+				id="bookmark-library"
+				class="bookmark"
+				href="/library"
+			>
+				View All Stories
+			</a>
+		</div>
+
+		<div id="page-wrapper">
+			<div id="page-content">
+				<div id="story-header">
+					<h1 id="story-title">{{ story.data.title }}</h1>
+					<p>by Marcelle J.J. Padilla</p>
+					<p>written {{ story.data.date | formatDateLocale }}</p>
+				</div>
+				<div id="story-content">
+					{{ story.content }}
+				</div>
+				<a id="back-to-top" href="#story-title">Back to Top</a>
+			</div>
+		</div>
+	</body>
+	
+</html>
