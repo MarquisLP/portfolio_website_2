@@ -49,7 +49,7 @@ But his figure is strong, their eyes are many, and my spirit is weak. A single b
 
 I relax my hands, but fail to do the same for my face before my vision grows clouded with tears. As I wipe them, I can’t make out what the crowd are saying or doing, but I can see the prince’s eyes grow wide with concern. I know his reaction is false, that it’s yet another component of the curse, yet still I say to him: “My apologies, Your Highness. I will never be worthy of crafting and delivering such a crucial item to you.”
 
-The prince steps closer to me, his smile returning, and I brace myself. Whether it’s imminent laughter or more false words of assurance, either one would be fit for the killing blow at my lowest point. But as he draws closer, I see that the skin around his eyes carries creases—of regret, grief, or worry, I’m not certain —hat have been weathered in like cracks in an old stone. In a low voice that the crowd is unlikely to hear, he says:
+The prince steps closer to me, his smile returning, and I brace myself. Whether it’s imminent laughter or more false words of assurance, either one would be fit for the killing blow at my lowest point. But as he draws closer, I see that the skin around his eyes carries creases—of regret, grief, or worry, I’m not certain—that have been weathered in like cracks in an old stone. In a low voice that the crowd is unlikely to hear, he says:
 
 “_I_ am the one who will never be worthy. Of your craft, of my godmother’s gift, of anything you see here today.”
 
