@@ -21,7 +21,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addWatchTarget('./_includes');
 
 	eleventyConfig.addCollection('latestStory', (collectionsApi) => {
-		return collectionsApi.getFilteredByTag('story').slice(0, 1);
+		return collectionsApi.getFilteredByTag('story').toReversed().slice(0, 1);
 	});
 
 	eleventyConfig.addPairedShortcode('excerpt', function (content) {
