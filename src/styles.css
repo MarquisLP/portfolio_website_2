@@ -1,12 +1,3 @@
-* {
-	font-family: 'Times New Roman', Times, serif;
-	box-sizing: border-box;
-}
-
-.bold {
-	font-weight: bold;
-}
-
 html {
 	scroll-padding-top: 200px;
 }

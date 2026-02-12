@@ -1,0 +1,16 @@
+* {
+	font-family: 'Times New Roman', Times, serif;
+	box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+	color: blue;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: bold;
+}
