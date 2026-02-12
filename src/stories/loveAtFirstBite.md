@@ -5,7 +5,7 @@ image: love-at-first-bite.jpg
 date: 2017-07-31
 genres: comedy, romance
 ---
-_“Kay, just ring me up when you get here. See you soon!”_
+“’Kay, just ring me up when you get here. See you soon!”
 
 With a smile, Shane tossed the phone onto his bed, where it got lost in piles of laundry and unmade covers. From that same mess, he cobbled together a shirt and some jeans before shuffling over to the bathroom. 
 
@@ -27,7 +27,7 @@ Shane stared at the screen. Never, in the six months he’d known her, had he be
 
 Several minutes and a few cupboards later, Shane held a freshly-dusted syringe in his hands. He had bought it a few years back to deal with his allergies, although he used it only sparingly. Even now, Shane shivered at the thought of having the needle penetrate his skin and introduce god-knows-what substance into his body. But then he remembered who he was doing this for, and set to work rinsing the syringe’s barrel. 
 
-DING! 
+\*DING!\*
 
 The doorbell rang the moment Shane reached for a towel, causing him to stumble out of the room with a wet syringe. When he reached the front door, he wasn’t alone, as Rex had already found his way there, panting quickly and wagging his tail even quicker. Shane smiled and gave the mutt a quick pat on the head; now there was no question as to who stood behind that door. 
 
