@@ -2,7 +2,7 @@
 tags: story
 title: A Worthy Curse
 image: a-worthy-curse.jpg
-date: 2023-02-28
+date: 2026-02-06
 genres: fantasy
 ---
 As the trumpets start their fanfare off in the distance, I set my drawplate down on the workbench, overwhelmed with the frustration that they will take so long to arrive and expose me.
