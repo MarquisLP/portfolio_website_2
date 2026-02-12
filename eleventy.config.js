@@ -87,6 +87,12 @@ export default function (eleventyConfig) {
 			.join(' ');
 	});
 
+	eleventyConfig.addFilter('modFour', (numString) => {
+		const num = Number(numString);
+		if (isNaN(num)) return 0;
+		return num % 4;
+	});
+
 	return {
 		templateFormats: ['html', 'css', 'js', 'md', 'liquid', 'png'],
 		htmlTemplateEngine: 'liquid',

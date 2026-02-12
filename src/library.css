@@ -69,6 +69,22 @@ body {
 	text-decoration: none;
 }
 
+.book-color-0 {
+	background-color: darkred;
+}
+
+.book-color-1 {
+	background-color: darkblue;
+}
+
+.book-color-2 {
+	background-color: darkgreen;
+}
+
+.book-color-3 {
+	background-color: darkgoldenrod;
+}
+
 .book-cover {
 	align-items: center;
 	display: flex;
