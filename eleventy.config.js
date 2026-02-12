@@ -72,6 +72,12 @@ export default function (eleventyConfig) {
 		},
 	);
 
+	eleventyConfig.addFilter('wordCount', (text) => {
+		if (!text) return 0;
+		const words = text.trim().split(/\s+/);
+		return words.length;
+	});
+
 	return {
 		templateFormats: ['html', 'css', 'js', 'md', 'liquid', 'png'],
 		htmlTemplateEngine: 'liquid',
