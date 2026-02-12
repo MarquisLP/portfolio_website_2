@@ -35,7 +35,7 @@ permalink: "/library/"
 
 		<div id="page-wrapper">
 			<div id="books-container">
-			{% for story in stories %}
+			{% for story in stories reversed %}
 				<a class="book" href="/library/{{ story.data.title | slugify }}/">
 					<div class="book-cover">
 						<div class="story-image-container">
