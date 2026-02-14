@@ -8,7 +8,7 @@ This project uses the [11ty](https://www.11ty.dev/) static site generator. This 
 
 Why plain HTML/CSS with 11ty instead of using a framework like React?
 
-- It's a lot lighter weight and more performant. No need to bundle all those React packages and dependency packages. Having the HTML and CSS already fully rendered, instead of having the user's browser run JavaScript to resolve everything, 
+- It's a lot lighter weight and more performant. No need to bundle all those React packages and dependency packages. Having the HTML and CSS already fully rendered, instead of having the user's browser run JavaScript to resolve everything, results in less CPU load and a snappier browsing experience.
 - Less complexity. As you'll see in the source code, this is a very small project with only a few pages. The only "reusable components" are the top bar "bookmark" navigation links, and even that can be easily modularized just by having a separate CSS stylesheet for reuse.
 - SEO! Most web crawlers don't run JavaScript, so a website built with React or another single-page application framework would just show up as mostly empty to those web crawlers. Technically, you could get around this with server-side rendering, but that's a whole other can of worms. Again, minimizing complexity is key.
 
@@ -36,7 +36,7 @@ CSS files for each of the HTML files are defined with the same name as the corre
 
 ### Building and Running the Website
 
-First, make sure you're on the appropriate Node.js version. If you have `nvm` installed, cd to the root of this repo and run:
+First, make sure you're on the appropriate Node.js version. If you have [nvm](https://github.com/nvm-sh/nvm) installed (or the [Windows version](https://github.com/coreybutler/nvm-windows)), cd to the root of this repo and run:
 
 ```bash
 $ nvm use
