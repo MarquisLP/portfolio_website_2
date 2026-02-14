@@ -87,11 +87,11 @@ a.bookmark:hover {
 
 @media screen and ((max-width: 670px) or (max-height: 670px)) {
 	a.bookmark {
-		font-size: 1rem;
+		font-size: 0.9rem;
 		height: 150px;
 		margin-top: -50px;
 		padding-top: 60px;
-		width: 75px;
+		width: 60px;
 	}
 
 	@keyframes bookmark-slide-down {
