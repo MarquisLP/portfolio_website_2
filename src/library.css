@@ -42,6 +42,24 @@ body {
 	text-decoration: none;
 }
 
+.book:hover {
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
+	animation-name: book-rise-and-grow-shadow;
+}
+
+@keyframes book-rise-and-grow-shadow {
+	0% {
+		transform: translateY(0) scale(1);
+		box-shadow: 0px 30px 15px -15px rgba(0, 0, 0, 0.3);
+	}
+
+	100% {
+		transform: translateY(-15px) scale(1.05);
+		box-shadow: 0px 45px 25px -15px rgba(0, 0, 0, 0.4);
+	}
+}
+
 .book-color-0 {
 	background-color: darkred;
 }
