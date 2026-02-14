@@ -28,7 +28,7 @@ export default function (eleventyConfig) {
 		return Math.floor(diffMs / msPerYear);
 	});
 
-	eleventyConfig.addWatchTarget('./_includes');
+	eleventyConfig.addWatchTarget('./bodyText');
 
 	eleventyConfig.addCollection('latestStory', (collectionsApi) => {
 		return collectionsApi.getFilteredByTag('story').toReversed().slice(0, 1);
