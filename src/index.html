@@ -126,7 +126,7 @@
 				</div>
 			</div>
 			<div id="software-tickets">
-				{%- for softwareProject in collections.softwareProject -%}
+				{%- for softwareProject in collections.softwareProject reversed -%}
 				<div class="software-ticket">
 					<img src="assets/{{softwareProject.data.image}}" />
 					<h2>{{ softwareProject.data.name }}</h2>
