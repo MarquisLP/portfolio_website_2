@@ -55,6 +55,10 @@ body {
 	text-indent: 2rem;
 }
 
+#story-content a {
+	text-decoration: underline;
+}
+
 #back-to-top {
 	align-self: flex-end;
 	font-size: 1.2rem;
