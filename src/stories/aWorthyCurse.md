@@ -4,6 +4,7 @@ title: A Worthy Curse
 image: a-worthy-curse.jpg
 date: 2026-02-06
 genres: fantasy
+summary: A blacksmith, cursed to have his incompetence hidden from others, must provide the prince with an important piece of metalwork.
 ---
 As the trumpets start their fanfare off in the distance, I set my drawplate down on the workbench, overwhelmed with the frustration that they will take so long to arrive and expose me.
 

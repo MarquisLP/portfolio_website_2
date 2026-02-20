@@ -4,6 +4,7 @@ title: Love at First Bite
 image: love-at-first-bite.jpg
 date: 2017-07-31
 genres: comedy, romance
+summary: A police officer reunites with his fiancée after she comes back from her trip—with a surprise.
 ---
 “’Kay, just ring me up when you get here. See you soon!”
 

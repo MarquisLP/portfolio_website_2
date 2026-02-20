@@ -4,6 +4,7 @@ title: Equivalent Exchange
 image: equivalent-exchange.jpg
 date: 2017-07-16
 genres: horror, suspense
+summary: Two police officers interrogate their lead suspect in a string of child abductions.
 ---
 Someone must have seen him, because the police were at his door. 
 
@@ -19,7 +20,7 @@ Cutting right to the chase? Munro tried a sheepish grin, but the scarred face in
 
 “It cuts down on bills.” 
 
-Munro’s bony finger flipped a switch, filling the hallway with the dingiest yellowthat could pass for light. 
+Munro’s bony finger flipped a switch, filling the hallway with the dingiest yellow that could pass for light. 
 
 “Would you like some coffee, Officer?” 
 

@@ -4,6 +4,7 @@ title: Flight
 image: flight.jpg
 date: 2017-11-01
 genres: drama
+summary: A young university student makes an important visit to a certain inmate.
 ---
 “You’ve got ten minutes.”
 

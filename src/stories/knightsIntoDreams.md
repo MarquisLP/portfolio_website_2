@@ -4,6 +4,7 @@ title: "Knights Into Dreams: The Chronicles of Lucy Lockhart"
 image: knights-into-dreams.jpg
 date: 2025-07-30
 genres: portal fantasy, adventure, psychological
+summary: A young woman ventures into the realm of dreams in this sprawling and psychological Progression Fantasy.
 ---
 **On those nights you fall into a never-ending dream, who lifts you back up to face the day?**
 

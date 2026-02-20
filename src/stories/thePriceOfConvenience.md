@@ -4,6 +4,7 @@ title: The Price of Convenience
 image: the-price-of-convenience.jpg
 date: 2021-04-17
 genres: horror, psychological
+summary: Tom, a hapless young man, accepts aid from a stranger and falls down a twisted rabbit hole.
 ---
 
 **I trusted them to make my life better. Here's why you should NEVER do that if you value your humanity.**
