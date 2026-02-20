@@ -77,12 +77,12 @@ body {
 	}
 
 	#story-header > p {
-		font-size: 1rem;
+		font-size: 0.8rem;
 	}
 
 	#story-content > p {
-		font-size: 1.2rem;
-		line-height: 1.8;
+		font-size: 1rem;
+		line-height: 1.5;
 	}
 }
 
