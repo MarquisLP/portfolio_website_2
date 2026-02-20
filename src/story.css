@@ -72,6 +72,11 @@ body {
 		padding: 15px;
 	}
 
+	#story-image {
+		height: auto;
+		width: 100%;
+	}
+
 	#story-title {
 		font-size: 2rem;
 	}
@@ -89,5 +94,6 @@ body {
 @media screen and (max-height: 520px) {
 	#story-image {
 		height: 150px;
+		width: auto;
 	}
 }
