@@ -1,6 +1,6 @@
 Well met, dear visitor! I'm a Full-Stack Developer brimming with over {{ "2020-06-01" | yearsSince  }} years of experience—and counting! I've built robust and radiant frontend applications with all the bells and whistles to delight millions of daily active users. I've also endured my fair share of backend hurdles and incidents, devised new database models and application workflows resistant to said incidents, and orchestrated new architectures to maximise scalability and performance. If you're in need of a good, solid noggin for your cloud-based solution, modern and snazzy web app, or any other software project that could use a major dose of professional creativity, energy, and wisdom, feel free to loose your carrier pigeons to one of the contact methods below!
 
 - [mjjpadilla@proton.me](mailto:mjjpadilla@proton.me)  
-- [https://linkedin.com/in/mark-jj-padilla](https://linkedin.com/in/mark-jj-padilla)
+- [https://linkedin.com/in/marcelle-jj-padilla](https://linkedin.com/in/marcelle-jj-padilla)
 
 Aside from writing code, I'm also an avid writer of prose. I take great pride in making reports clear and comprehensive, my Git commits and documentation concise and informative, and all manner of written communications easy to comprehend, for all. Beyond the reaches of the software realm, I also wield my wordcraft for storytelling. I write fiction, both short and long, across a variety of genres. Be sure to check out samples of my envisioned characters, worlds, and scenarios in the “Library” section below!
